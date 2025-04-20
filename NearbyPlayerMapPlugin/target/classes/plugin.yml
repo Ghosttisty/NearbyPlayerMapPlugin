@@ -1,0 +1,19 @@
+main: NPMP.ghost.NearbyPlayersMapPlugin
+version: 1.0
+name: NearbyPlayersMapPlugin
+author: Ghosttisty
+api-version: 1.13
+commands:
+  getplayermap:
+    description: Obtiene un mapa de jugadores cercanos
+    usage: /<command>
+  hidefrommaps:
+    description: Te oculta de los mapas de jugadores por 2 minutos
+    usage: /<command>
+permissions:
+  nearbyplayersmap.getmap:
+    description: Permite al jugador obtener un mapa con /getplayermap.
+    default: true # Todos pueden obtener el mapa por defecto
+  nearbyplayersmap.hide:
+    description: Permite al jugador ocultarse usando /hidefrommaps o interacción.
+    default: true # Todos pueden ocultarse por defecto

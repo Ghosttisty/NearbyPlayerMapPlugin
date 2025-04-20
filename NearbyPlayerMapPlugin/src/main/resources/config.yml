@@ -1,0 +1,12 @@
+map_removal_message: "Has eliminado el mapa de jugadores. Puedes obtener uno nuevo usando el comando /getplayermap"
+map_range: 100
+map_given_message: "¡Has recibido un mapa de jugadores cercanos!"
+
+hide_duration: 120 # Duración en segundos (2 minutos)
+hide_cost: 10 # Costo en niveles de experiencia
+hide_message: "Te has ocultado del mapa por {0} minutos."
+unhide_message: "Ya no estás oculto en el mapa."
+not_enough_xp_message: "No tienes suficiente experiencia para ocultarte. Necesitas al menos {0} niveles de experiencia."
+sneak_required_message: "Debes estar agachado para ocultarte"
+
+hide_info_message: "Puedes ocultarte de los mapas por {0} minutos agachándote y haciendo clic izquierdo con el mapa en la mano. Esto tiene un costo de {1} niveles de experiencia."
